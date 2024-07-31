@@ -1,0 +1,78 @@
+ 
+.column {
+    float: left;
+    width: 300;
+    height: 300;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+@media screen and (min-width:550px){
+    body{
+        background-color:aqua;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:700px) 
+and (max-width:1080px){
+    body{
+        background-color:black;
+    }
+}
+/* Desktop and laptop */
+@media screen and (min-width:1150px){
+   body{
+     background-color:rgb(80, 114, 218);
+     color:black;
+    }
+}
+
+.logo{
+    float:left;
+}
+nav{
+    background-color:rgb(240, 98, 224);
+    color:rgb(7, 240, 92);
+    padding:20px;
+}
+h1,h3,p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(246, 246, 246);
+}
+form{
+    background-color:beige;
+}
+table{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:3px;
+}
+nav ul li{
+    display:inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+footer{
+    background-color:rgb(240, 98, 225);
+    color:rgb(176, 98, 98);
+    text-align:center;
+    padding:10px 0;
+}
